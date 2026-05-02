@@ -66,6 +66,6 @@ sql-data-warehouse-project/
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
 ---
-## 🌟 About Me
+## 👨🏻‍💻 About Me
 
 Hi there! I'm **Omid Zolfagahr Beigy**. I’m passionate about problem-solving and optimizing systems to enhance efficiency and performance. My core strengths lie in systems optimization, supported by skills in mathematical programming, data analysis, and machine learning.
