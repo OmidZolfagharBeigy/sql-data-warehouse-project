@@ -52,7 +52,7 @@ sql-data-warehouse-project/
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+│   ├── gold/                           # Scripts for creating business-ready data
 │
 ├── tests/                              # Test scripts and quality of files
 │
