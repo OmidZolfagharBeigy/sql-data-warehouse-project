@@ -46,7 +46,7 @@ sql-data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
 │   ├── ...
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
