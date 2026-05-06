@@ -43,23 +43,23 @@ sql-data-warehouse-project/
 │
 ├── datasets/                       # Raw datasets used for the project (ERP and CRM data)
 │
-├── docs/                           # Project documentation and architecture details
-│   ├── data_architecture.png       # A diagram showing the project architecture
-│   ├── data_catalog.md             # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.png               # A diagram showing the data flow between layers of data architecture
-│   ├── data_integration.png        # A diagram showing how tables of sources are related
-│   ├── data_model.png              # A diagram showing the data model (star schema)
-│   ├── naming_conventions.md       # Consistent naming guidelines for tables, columns, and files
+├── docs/                          # Project documentation and architecture details
+│   ├── data_architecture.png      # A diagram showing the project architecture
+│   ├── data_catalog.md            # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.png              # A diagram showing the data flow between layers of data architecture
+│   ├── data_integration.png       # A diagram showing how tables of sources are related
+│   ├── data_model.png             # A diagram showing the data model (star schema)
+│   ├── naming_conventions.md      # Consistent naming guidelines for tables, columns, and files
 │
-├── scripts/                        # SQL scripts for ETL and transformations
-│   ├── bronze/                     # Scripts for extracting and loading raw data
-│   ├── silver/                     # Scripts for cleaning and transforming data
-│   ├── gold/                       # Scripts for creating business-ready data
+├── scripts/                       # SQL scripts for ETL and transformations
+│   ├── bronze/                    # Scripts for extracting and loading raw data
+│   ├── silver/                    # Scripts for cleaning and transforming data
+│   ├── gold/                      # Scripts for creating business-ready data
 │
-├── tests/                          # Test scripts for quality of silver and gold layer
+├── tests/                         # Test scripts for quality of silver and gold layer
 │
-├── README.md                       # Project overview and instructions
-├── LICENSE                         # License information for the repository
+├── README.md                      # Project overview and instructions
+├── LICENSE                        # License information for the repository
 ```
 
 ---
