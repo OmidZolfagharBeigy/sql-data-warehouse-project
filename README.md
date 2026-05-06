@@ -1,7 +1,17 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights.
+Welcome to the **Data Warehouse Project** repository! 🚀  
+This project demonstrates a comprehensive data warehousing by using data from two source systems (ERP and CRM).
+
+---
+## 🏗️ Data Architecture
+
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/data_architecture.png)
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ---
 ## 📖 Project Overview
@@ -11,7 +21,6 @@ This project involves:
 1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 ---
 ## 🔎 Project Requirements
@@ -28,17 +37,6 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
----
-### 📋 BI: Analytics & Reporting (Data Analysis)
-
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
-
 ## 📂 Repository Structure
 ```
 sql-data-warehouse-project/
@@ -46,15 +44,19 @@ sql-data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
+│   ├── data_architecture.png           # A diagram showing the project architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.png                   # A diagram showing the data flow between layers of data architecture
+│   ├── data_integration.png            # A diagram showing how tables of sources are related
+│   ├── data_model.png                  # A diagram showing the data model (star schema)
 │   ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
-│   ├── ...
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating business-ready data
 │
-├── tests/                              # Test scripts and quality of files
+├── tests/                              # Test scripts for quality of silver and gold layer
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
