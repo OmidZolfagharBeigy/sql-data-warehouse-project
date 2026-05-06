@@ -41,7 +41,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ```
 sql-data-warehouse-project/
 │
-├── datasets/                       # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                      # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                          # Project documentation and architecture details
 │   ├── data_architecture.png      # A diagram showing the project architecture
