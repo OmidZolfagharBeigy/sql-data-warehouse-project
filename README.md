@@ -7,6 +7,7 @@ This project demonstrates a comprehensive data warehousing by using data from tw
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+
 ![Data Architecture](docs/data_architecture.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
@@ -71,3 +72,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## 👨🏻‍💻 About Me
 
 Hi there! I'm **Omid Zolfagahr Beigy**. I’m passionate about problem-solving and optimizing systems to enhance efficiency and performance. My core strengths lie in systems optimization, supported by skills in mathematical programming, data analysis, and machine learning.
+
+Let's stay in touch! Feel free to connect with me on the following platforms:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/omidzbeigy)
