@@ -1,6 +1,6 @@
-# Data Warehouse Project
+# SQL Data Warehouse Project
 
-Welcome to the **Data Warehouse Project** repository! 🚀  
+Welcome to the **SQL Data Warehouse Project** repository! 🚀  
 This project demonstrates a comprehensive data warehousing by using data from two source systems (ERP and CRM).
 
 ---
