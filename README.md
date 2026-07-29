@@ -62,6 +62,9 @@ sql-data-warehouse-project/
 ├── README.md                      # Project overview and instructions
 ├── LICENSE                        # License information for the repository
 ```
+## 🙏 Acknowledgements
+
+Thanks to [@datawithbaraa](https://www.youtube.com/@datawithbaraa) on YouTube for teaching me how to do this project.
 
 ---
 ## 🛡️ License
@@ -76,3 +79,4 @@ Hi there! I'm **Omid Zolfagahr Beigy**. I’m passionate about problem-solving a
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/omidzbeigy)
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)](https://public.tableau.com/app/profile/omid.zolfaghar.beigy/vizzes)
